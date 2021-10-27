@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body {
+    background-color:hsl(225, 100%, 94%);
+}
+.background img {
+    height: 300px;
+    width: 100%;
+}
+.box {
+    background: white;
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.14), 0 3px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+.hero-image {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.box h1 {
+    text-align: center;
+    margin-top: 16px;
+}
+.box p{
+    text-align: center;
+    margin-top: 16px;
+}
+.heading p {
+    color: rgba(0, 0, 0, 0.5);
+}
+.annual-plan{
+    background-color: #f8f9fe;
+    position: absolute;
+    right: 400px;
+    margin-top: 30px;
+}
+.plantext h3 {
+    position: absolute;
+    right: 275px;
+    margin-top: 30px;
+}
+.plantext p{
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 290px;
+    margin-top: 60px;
+}
+.gray-box{
+    height: 110px;
+    width: 400px;
+    background-color: gray;
+    opacity: 10% ;
+    align-content: center;
+    border-radius: 15px;
+    position: absolute;
+    left: 80px;
+    margin-top: 10px;
+    }
+    .payment{
+        background-color: hsl(245, 75%, 52%);
+        height: 60px;
+        width: 400px;
+        align-content: center;
+        border-radius: 15px;
+        position: absolute;
+        left: 80px;
+        margin-top: 150px;
+    }
+    .payment h3{
+        text-align: center;
+        margin-top: 14px;
+        position: absolute;
+        left: 110px;
+        color: white;
+    }
+    .payment p{
+        text-align: center;
+        margin-top: 95px;
+        position: absolute;
+        left: 150px;
+        font-weight: bold;
+    }
+    .payment a{
+        color: blueviolet;
+        position: relative;
+        bottom: 90px;
+        left: 325px;
+        font-weight: bold;
+    }
